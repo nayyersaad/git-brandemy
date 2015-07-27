@@ -1,0 +1,422 @@
+@font-face {
+    font-family: Museo700-Regular;
+    src: url('../fonts/Museo700-Regular.otf');
+}
+
+@font-face {
+    font-family: Museo500-Regular;
+    src: url('../fonts/Museo500-Regular.otf');
+}
+
+@font-face {
+    font-family: Museo300-Regular;
+    src: url('../fonts/Museo300-Regular.otf');
+}
+
+@font-face {
+    font-family: fbkbt;
+    src: url('../fonts/tt0140m_.ttf');
+}
+
+.font-fbkbt{
+	font-family: fbkbt;
+}
+
+.font-Museo300{
+	font-family: Museo300-Regular;
+}
+
+.font-Museo500{
+	font-family: Museo500-Regular;
+}
+
+.font-Museo700{
+	font-family: Museo700-Regular;
+}
+
+.margin-top-10{
+	margin-top: 10px;
+}
+
+.margin-top-11{
+	margin-top: 11px;
+}
+
+.btn-custom{
+	border-radius: 0px;
+	font-size: 0.9em;
+}
+
+.btn-no-corner{
+	border-radius: 0px;
+}
+
+.btn-orange{
+	background: #ffb400;
+	border-bottom: 2px solid #ff5f01;
+	color: #000000;
+}
+
+.btn-custom-default {
+  border-bottom: 2px solid #ccc;
+}
+
+.color-white{
+	color: #ffffff;
+}
+
+body{
+	background: #ebebeb;
+}
+
+form{
+	font-family: fbkbt;	
+}
+
+form label{
+	letter-spacing: 2.0px;
+	font-weight: lighter;
+	font-size: 15px;
+}
+
+form .help-block{
+	color: #ffffff;
+}
+
+form .help-block a{
+	color: #ffb400;
+}
+
+.form-control-customized{
+	border-radius: 0px;
+	background: #333333;
+	border: 1px solid #333333;
+}
+
+
+.modal-upper-logo{
+	position: absolute;
+	top: -35px;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+    z-index: 1;
+}
+
+.modal-heading-customized{
+	letter-spacing: 2.0px;
+	text-shadow: 2px 1px #cccccc;
+}
+
+.customizing-modal .modal-content{
+	border-radius: 0px;
+}
+
+.modal-title-customized{
+	font-family: fbkbt;
+	color: #000000;
+}
+
+.modal-customized-footer{
+	border: 0px;
+	text-align: center;
+}
+
+.customizing-modal .modal-content{
+	background: url('../img/bg-header-768.jpg') center center no-repeat;
+}
+
+/*** HEADER BEGINS ***/
+
+#header-home{
+	background: url('../img/header-featured-bg.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;	
+}
+
+.home-search-control{
+}
+
+.home-search-control input{
+	border: 1px solid #ffffff;
+	border-radius: 0px;
+	background: #666;
+	opacity: 0.8;
+	font-size: 1.2em;
+	color: #ffffff;
+	letter-spacing: 0.1em;
+}
+
+.logo-text a,
+.logo-text a:hover,
+.logo-text a:active{ color: #fff; text-decoration: none; }
+
+.col-login, .col-login button{
+	color: #333;
+}
+
+.featured-header-content-headings{
+	color: #ffffff;
+}
+
+#header-content p.lead-custom{
+	background: #563a49;
+	opacity: 0.8;
+	color: #ffffff;	
+}
+
+#header-content small{
+	color: #ffffff;
+	font-weight: lighter;
+}
+
+.standout-heading{
+	background: #ffffff;
+	color: #563a49;
+}
+
+/*** HEADER ENDED ***/
+
+/*** FOOTER BEGINS ***/
+
+#brandemy-footer{
+  background: #1a1a1a;
+  padding-top: 60px;
+  color: #6c6c6c;
+  font-size: 90%;
+  border-bottom: 5px solid #ff9c00; 
+}
+
+#brandemy-footer a {
+  color: #979797;
+}
+
+#brandemy-footer .icon-skype {
+	color: #00affd; /*SKYPE TEXT COLOR*/
+}
+
+#brandemy-footer .icon-skype span img{
+	width: 15px; height: 15px;
+}
+
+#brandemy-footer .list-inline{
+  margin: 20px 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+#brandemy-footer .list-inline>li{
+	padding-left: 0px;
+}
+
+#brandemy-footer .list-inline li img{
+	width: 30px;
+}
+
+/*** FOOTER ENDED ***/
+
+/*** CONTENT BEGINS ***/
+
+#brands-body {
+  
+}
+
+.brands-body-container {
+  padding: 50px 0px 40px;
+}
+
+.row-brands {
+  margin-bottom: 10px;
+}
+
+.brand-box {
+  position: relative;
+  display: inline-block;
+  background: #ffffff;
+  width: 220px;
+  height: 220px;
+  margin: 5px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.brand-box-hover {
+  background: #000000;
+  opacity: 0.7;
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 220px;
+  height: 220px;  
+}
+
+.brand-box-default {
+  padding: 80px 25px 10px;
+}
+
+.signlogpops {
+  cursor: pointer;
+}
+
+.brand-box-main-logo{
+	height: 51px;
+	width: 153px;
+}
+
+.brand-box-price {
+  color: #ffffff;  
+}
+
+.brand-box-btn {
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  letter-spacing: 2.0px;
+  border-radius: 0px;
+}
+
+.brand-box-link-title {
+  margin-top: 55px;
+  font-family: 'fbkbt';
+}
+
+.brand-box:hover > .brand-box-hover{
+	display: block;
+	padding: 40px 25px 10px;	
+}
+
+.btn-load-more{
+	color: #ffffff;
+	background: #333333;
+	margin-bottom: 20px;
+	box-shadow: 1px 1px 10px #333;
+}
+
+.btn-load-more:hover{
+	color: #666666;
+}
+
+/*** CONTENT ENDED ***/
+
+/*** FAVORITE BRANDS BEGINS ***/
+
+#favorite-brands{
+	background: #000000;
+	padding: 25px 0px;
+}
+
+#favorite-brands h1,
+#favorite-brands h2,
+#favorite-brands h3,
+#favorite-brands h4,
+#favorite-brands h5,
+#favorite-brands h6{
+	color: #fff014;
+}
+
+#favorite-brands .info{
+	color: #ffffff;
+}
+
+#favorite-brands .btn-orange{
+	background: #ffb500;
+	border: none;
+}
+
+#favorite-brands .btn-blue{
+	background: #00aeef;
+}
+
+#favorite-brands .favorite-brand{
+	height: 100px;
+	padding: 15px 15px;
+	background: #ffffff;
+}
+
+#favorite-brands .favorite-brand img{
+	/*margin-top: 15px;*/
+	height: 45px;
+	display: block;
+	margin: 15px auto 0px;
+}
+
+/*** FAVORITE BRANDS ENDED ***/ 
+
+@media (max-width: 768px) {
+	.customizing-modal .modal-content{ margin-top: 30px; }
+	.customizing-modal .modal-content .help-block{ color: #000;}
+	.customizing-modal .modal-content .help-block a{ font-weight: bold; text-transform: uppercase;}
+	.container{}
+	.toggle-display{ display: none; }
+	.btn-login{ padding: 5px; }
+	.home-search-control input{ text-align: center; font-size: 0.8em;}
+	.btn-custom{ font-size: 0.6em; }
+	.text-align-login-toggle{ text-align: right; }
+	.logo-img{ height: 35px; }
+	#header-content p.lead-custom{ padding: 15px 10px; }
+	.million-dollar-business{ text-align: center; }
+	.right-brand-name{ text-align: center; }
+	.standout-heading{ padding: 10px; }
+	.toggle-footer-col-alignment{ text-align: center; }
+	#brandemy-footer .head{ text-decoration: underline; }
+	.brand-box { width: auto; display: block; }
+	.brand-box-hover { width: 100%; }
+	#favorite-brands .col-info-align{ text-align: center; }
+	.list-brands .favorite-brand{ display: inline-block; margin-top: 10px; width: 35%; margin: 5px;}
+	.list-brands-align{text-align: center;}	
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+	.container{}
+	.home-search-control input{ text-align: center; }
+	.toggle-display{ display: none; }
+	#header-content p.lead-custom{ padding: 15px 10px; font-size: 16px;}
+	.million-dollar-business{ text-align: center; }
+	.right-brand-name{ text-align: center; }
+	.standout-heading{ padding: 5px; }
+	.list-brands .favorite-brand{ display: block; margin-top: 10px;}			
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+	.toggle-display{ display: none; }
+	.container{}
+	.home-search-control input{ text-align: center; }
+	#header-content p.lead-custom{ padding: 15px 10px; }
+	.million-dollar-business{ text-align: center; }
+	.right-brand-name{ text-align: center; }
+	.standout-heading{ padding: 10px; }
+	.list-brands .favorite-brand{ display: inline-block; width: 130px; 	margin-top: 20px; margin-right: 5px;}		
+}
+
+@media (min-width: 1200px) {
+	#header-home{ height: 900px; }
+	.row-top{ margin-top: 15px; }
+	.home-search-control{ margin-top: 40px; }
+	.btn-custom{ padding: 3px 10px; }
+	.text-align-login-toggle{ text-align: center; }
+	.logo-img{ height: 40px;}
+	.logo-text{ margin-top: 35px; }
+	.logo-text a,
+	.logo-text a:hover,
+	.logo-text a:active{ letter-spacing: 0.1em; font-size: 1.2em;}
+	.logo-text span{ margin-left: 5px; }
+	#header-content{ margin-top: 280px; }
+	.featured-header-content-headings{ letter-spacing: 0.1em; word-spacing: 0.2em; }
+	.featured-header-content-headings h1,
+	.featured-header-content-headings h2,
+	.featured-header-content-headings h3,
+	.featured-header-content-headings h4,
+	.featured-header-content-headings h5,
+	.featured-header-content-headings h6{
+		line-height: 0.7em;
+	}
+	#header-content p.lead-custom{ padding: 15px 10px; margin: 10px auto; letter-spacing: 1.2px; word-spacing: 0.3em; font-size: 18px;}
+	#header-content p.lead-custom strong{ font-size: 20px; }
+	.million-dollar-business{ letter-spacing: 5px; text-align: center; }
+	.right-brand-name{ letter-spacing: 5px; text-align: center; }
+	.standout-heading{ padding: 10px; }
+	#brandemy-footer .icon-skype span img{ width: 15px; height: 15px; }
+	.list-brands .favorite-brand{ display: inline-block; width: 150px; 	margin-top: 30px; margin-right: 15px;}
+}
