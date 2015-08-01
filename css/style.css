@@ -42,6 +42,18 @@
 	margin-top: 11px;
 }
 
+.page-header-separator{
+	background: #ffffff;	
+}
+
+.page-header-separator h1{
+	border-bottom: 2px solid #666666;
+}
+
+.signup-login-modal{
+	display: block;
+}	
+
 .btn-custom{
 	border-radius: 0px;
 	font-size: 0.9em;
@@ -65,6 +77,16 @@
 	color: #ffffff;
 }
 
+.img-helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.share-item-logo{
+	margin: auto;
+}
+
 body{
 	background: #ebebeb;
 }
@@ -85,6 +107,10 @@ form .help-block{
 
 form .help-block a{
 	color: #ffb400;
+}
+
+.toggle-mobile{
+	display: none;
 }
 
 .form-control-customized{
@@ -124,7 +150,24 @@ form .help-block a{
 }
 
 .customizing-modal .modal-content{
-	background: url('../img/bg-header-768.jpg') center center no-repeat;
+	background: url('../img/header-featured-bg-1024.jpg') center bottom no-repeat;
+}
+
+.customizing-modal .modal-content form label{
+	color: #ffffff;
+}
+
+.favorite-brands-container .row{
+	background: #ffffff;	
+}
+
+.btn-orange.active,
+.btn-orange:active {
+	background: #ff5f01;
+}
+
+.border-check{
+	border: 1px solid blue;
 }
 
 /*** HEADER BEGINS ***/
@@ -134,6 +177,10 @@ form .help-block a{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;	
+}
+
+#header-share{
+	background: url('../img/header-featured-bg.jpg') center center;
 }
 
 .home-search-control{
@@ -186,7 +233,7 @@ form .help-block a{
   padding-top: 60px;
   color: #6c6c6c;
   font-size: 90%;
-  border-bottom: 5px solid #ff9c00; 
+  border-bottom: 5px solid #ff9c00;  
 }
 
 #brandemy-footer a {
@@ -266,7 +313,8 @@ form .help-block a{
 }
 
 .brand-box-price {
-  color: #ffffff;  
+  color: #ffffff;
+  font-size: 1.4em;  
 }
 
 .brand-box-btn {
@@ -275,6 +323,8 @@ form .help-block a{
   color: #ffffff;
   letter-spacing: 2.0px;
   border-radius: 0px;
+  padding: 5px 5px;
+  font-size: 0.8em;
 }
 
 .brand-box-link-title {
@@ -342,7 +392,15 @@ form .help-block a{
 	margin: 15px auto 0px;
 }
 
-/*** FAVORITE BRANDS ENDED ***/ 
+/*** FAVORITE BRANDS ENDED ***/
+
+/*** SHARE PAGE BEGNINS ***/
+
+#content-share{
+	padding: 50px 25px;
+}
+
+/*** SHARE PAGE ENDED ***/
 
 @media (max-width: 768px) {
 	.customizing-modal .modal-content{ margin-top: 30px; }
@@ -350,7 +408,7 @@ form .help-block a{
 	.customizing-modal .modal-content .help-block a{ font-weight: bold; text-transform: uppercase;}
 	.container{}
 	.toggle-display{ display: none; }
-	.btn-login{ padding: 5px; }
+	.btn-login{ padding: 5px 3px; }
 	.home-search-control input{ text-align: center; font-size: 0.8em;}
 	.btn-custom{ font-size: 0.6em; }
 	.text-align-login-toggle{ text-align: right; }
@@ -365,7 +423,15 @@ form .help-block a{
 	.brand-box-hover { width: 100%; }
 	#favorite-brands .col-info-align{ text-align: center; }
 	.list-brands .favorite-brand{ display: inline-block; margin-top: 10px; width: 35%; margin: 5px;}
-	.list-brands-align{text-align: center;}	
+	.list-brands-align{text-align: center;}
+	#content-share{ padding: 0px; }
+	h1{ font-size: 2.0em; }
+	h2{ font-size: 1.8em; }
+	h3{ font-size: 1.6em; }
+	h4{ font-size: 1.4em; }
+	h5{ font-size: 1.2em; }
+	h6{ font-size: 1.0em; }
+	.toggle-mobile{ display: block; }
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -419,4 +485,9 @@ form .help-block a{
 	.standout-heading{ padding: 10px; }
 	#brandemy-footer .icon-skype span img{ width: 15px; height: 15px; }
 	.list-brands .favorite-brand{ display: inline-block; width: 150px; 	margin-top: 30px; margin-right: 15px;}
+	.favorite-brands-container{ padding-top: 50px;}
+	.favorite-brands-container .row{ padding: 20px 10px; margin-bottom: 10px;}
+	.favorite-brands-container .row div:first-child{width: ; padding: 15px;}
+	.favorite-brands-container .row div:nth-child(2){ padding: 15px; border-left: 1px solid #999999;}
+	.share-item-logo{ height: 50px; }
 }

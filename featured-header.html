@@ -32,7 +32,17 @@
           </div>
           <div class="col-lg-1 col-md-1 col-sm-1 col-xs-"></div>
           <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 col-login font-fbkbt text-align-login-toggle">
-              <h4><span class="toggle-display">Have an account ?<br /></span><button class="btn btn-block btn-sm btn-custom btn-custom-block btn-orange margin-top-11">Login</button></h4>                          
+              <h4 id="login-no"><span class="toggle-display">Have an account ?<br /></span><button class="btn btn-block btn-sm btn-custom btn-login btn-custom-block btn-orange margin-top-11">Login</button></h4>
+              <div id="login-yes" class="dropdown">
+                <a href="#" class="dropdown-toggle" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">emailaddress@domainname.com <span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="user-options">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li role="separator" class="divider"></li>
+                  <li><a href="#">Logout</a></li>
+                </ul>                
+              </div>                                      
           </div>
         </div>
         <div id="header-content">
@@ -51,5 +61,9 @@
       </div>
     </header>
 
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
