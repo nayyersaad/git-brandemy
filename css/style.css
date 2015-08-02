@@ -234,7 +234,7 @@ form .help-block a{
 /*** HEADER BEGINS ***/
 
 #header-home{
-	background: url('../img/header-featured-bg.jpg');
+	background: url('../img/header-featured-bg-2048.jpg');
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;	
@@ -525,7 +525,8 @@ form .help-block a{
 }
 
 @media (min-width: 1200px) {
-	#header-home{ height: 900px; }
+	#header-home{ padding-bottom: 100px; }
+	#header-content{ margin-top: 100px; }
 	.row-top{ margin-top: 15px; }
 	.home-search-control{ margin-top: 40px; }
 	.btn-custom{ padding: 3px 10px; }
@@ -536,7 +537,6 @@ form .help-block a{
 	.logo-text a:hover,
 	.logo-text a:active{ letter-spacing: 0.1em; font-size: 1.2em;}
 	.logo-text span{ margin-left: 5px; }
-	#header-content{ margin-top: 280px; }
 	.featured-header-content-headings{ letter-spacing: 0.1em; word-spacing: 0.2em; }
 	.featured-header-content-headings h1,
 	.featured-header-content-headings h2,
