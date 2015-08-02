@@ -22,7 +22,7 @@
 	font-family: fbkbt;
 }
 
-.font-Museo300{
+.f{
 	font-family: Museo300-Regular;
 }
 
@@ -40,6 +40,10 @@
 
 .margin-top-11{
 	margin-top: 11px;
+}
+
+.padding-top-25{
+	padding-top: 25px;
 }
 
 .page-header-separator{
@@ -169,6 +173,63 @@ form .help-block a{
 .border-check{
 	border: 1px solid blue;
 }
+
+/*** BRAND PAGE BEGINS ***/
+#header-brand{
+	background: #ffffff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 2999;
+}
+
+#carousel-brand{	
+}
+
+#carousel-brand .carousel-inner{
+
+}
+
+#carousel-brand .carousel-inner .item img{
+	width: 100%;
+}
+
+#brand-description{
+	background: #ffffff;
+	padding-bottom: 20px;
+}
+
+#brand-description .container h3{
+	padding: 25px 0px;
+}
+
+.post-tags > span{
+	padding: 10px 7px;
+	font-size: 0.9em;
+}
+
+.brand-purchase-box{
+	border: 2px solid #cccccc;
+	width: 50%;
+	padding: 20px 10px;
+}
+
+.brand-purchase-box .brand-logo{
+	height: 
+}
+
+.brand-purchase-box .brand-price{
+	color: #cccccc;
+}
+
+.brand-purchase-box .brand-purchase{
+	border: 1px solid #cccccc;
+	background: transparent;
+	color: #999999;
+}
+
+/*** BRAND PAGE ENDED ***/
 
 /*** HEADER BEGINS ***/
 
@@ -425,6 +486,9 @@ form .help-block a{
 	.list-brands .favorite-brand{ display: inline-block; margin-top: 10px; width: 35%; margin: 5px;}
 	.list-brands-align{text-align: center;}
 	#content-share{ padding: 0px; }
+	#content-share .row{ margin: 15px 0px;}
+	#content-share .row div:nth-child(2){ padding: 15px 0px; }
+	#content-share .row button, #content-share .buttons-container a { width: auto; display: inline-block;}
 	h1{ font-size: 2.0em; }
 	h2{ font-size: 1.8em; }
 	h3{ font-size: 1.6em; }
@@ -432,6 +496,10 @@ form .help-block a{
 	h5{ font-size: 1.2em; }
 	h6{ font-size: 1.0em; }
 	.toggle-mobile{ display: block; }
+	.header-brand-middle-text{ font-size: 1em; }
+	#carousel-brand{ margin-top: 55px; height: 150px; overflow: hidden; }
+	.text-left-center-toggle{ text-align: center; }
+	.brand-purchase-box{margin: 10px  auto;}
 }
 
 @media (min-width: 768px) and (max-width: 992px) {
@@ -490,4 +558,11 @@ form .help-block a{
 	.favorite-brands-container .row div:first-child{width: ; padding: 15px;}
 	.favorite-brands-container .row div:nth-child(2){ padding: 15px; border-left: 1px solid #999999;}
 	.share-item-logo{ height: 50px; }
+	#header-brand { height: 100px; }
+	#header-brand .logo-img{ height: 100px; }
+	#header-brand .logo-text{ margin-top: 0px; }
+	.width-toggle-auto { width: auto; }
+	#carousel-brand{ margin-top: 100px;	height: 500px; overflow: hidden;}
+	.brand-purchase-box{margin: 50px auto; margin-right: 0px; }
+	.promo-form-align{ float: right; }	
 }
