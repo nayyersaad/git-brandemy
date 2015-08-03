@@ -361,7 +361,7 @@ form .help-block a{
 }
 
 .brand-box-default {
-  padding: 80px 25px 10px;
+  padding: 40px 25px 10px;
 }
 
 .signlogpops {
@@ -369,13 +369,14 @@ form .help-block a{
 }
 
 .brand-box-main-logo{
-	height: 51px;
 	width: 153px;
 }
 
 .brand-box-price {
   color: #ffffff;
-  font-size: 1.4em;  
+  font-size: 1.4em;
+  letter-spacing: 0.17em;
+  margin-top: 50px;  
 }
 
 .brand-box-btn {
@@ -389,7 +390,7 @@ form .help-block a{
 }
 
 .brand-box-link-title {
-  margin-top: 55px;
+  margin-top: 40px;
   font-family: 'fbkbt';
 }
 
